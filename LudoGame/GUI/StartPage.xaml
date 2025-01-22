@@ -1,0 +1,17 @@
+﻿<Page x:Class="LudoGame.GUI.StartPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="600"
+      Title="StartPage">
+
+    <StackPanel Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock FontSize="30" FontWeight="Black" Text="Čovječe, ne ljuti se!" HorizontalAlignment="Center" Margin="0 10 0 0 "/>
+        <TextBlock FontSize="25" Text="Molimo odaberite broj igrača:" HorizontalAlignment="Center" Margin="20 10 20 20"/>
+        <Button Content="2 igrača" HorizontalAlignment="Center" Margin="10" Padding="10" FontSize="20" Background="LightYellow" Click="Button_Click"/>
+        <Button Content="3 igrača" HorizontalAlignment="Center" Margin="10" Padding="10" FontSize="20" Background="LightBlue" Click="Button_Click_1"/>
+        <Button Content="4 igrača" HorizontalAlignment="Center" Margin="0 10 0 20" Padding="10" FontSize="20" Background="LightGreen" Click="Button_Click_2"/>
+    </StackPanel>
+</Page>

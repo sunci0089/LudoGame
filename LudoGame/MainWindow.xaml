@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LudoGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="700" Width="700">
+    <Grid Background="LightGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!-- Generate 15x15 cells with visible borders 
+            <Border BorderBrush="Black" BorderThickness="1" Background="Red"/>
+            <Border BorderBrush="Black" BorderThickness="1" Background="Red"/>-->
+        
+        <Frame Width="600" Height="600" Source="GUI/StartPage.xaml" Grid.Column="1" />
     </Grid>
 </Window>

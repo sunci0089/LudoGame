@@ -8,4 +8,37 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="GUI\Resources\dice1.png" />
+    <None Remove="GUI\Resources\dice2.png" />
+    <None Remove="GUI\Resources\dice3.png" />
+    <None Remove="GUI\Resources\dice4.png" />
+    <None Remove="GUI\Resources\dice5.png" />
+    <None Remove="GUI\Resources\dice6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="GUI\Resources\dice1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GUI\Resources\dice2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="GUI\Resources\dice3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GUI\Resources\dice4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GUI\Resources\dice5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GUI\Resources\dice6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
